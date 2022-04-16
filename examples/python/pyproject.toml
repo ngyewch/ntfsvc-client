@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ntfsvc-client-example"
+version = "0.1.0"
+description = "Notification Service client example."
+authors = ["Nick Ng <ngyewch@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ntfsvc-client = { git = "https://github.com/ngyewch/ntfsvc-client-python", tag = "v1.0.0" }
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
